@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/schedule2"
+        android:icon="@drawable/schedule"
+        android:title="Schedule"/>
+
+    <item
+        android:id="@+id/assignment"
+        android:icon="@drawable/ic_asss"
+        android:title="Assignments"/>
+    <item
+        android:id="@+id/test2"
+        android:icon="@drawable/ic_test"
+        android:title="test"/>
+
+    <item
+        android:id="@+id/library2"
+        android:icon="@drawable/ic_library"
+        android:title="Library"/>
+
+
+
+    <item
+        android:id="@+id/more2"
+        android:icon="@drawable/ic_baseline_more"
+        android:title="More"/>
+</menu>

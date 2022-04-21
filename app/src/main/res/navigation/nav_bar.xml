@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar.xml"
+    app:startDestination="@id/testFragment2">
+
+    <fragment
+        android:id="@+id/testFragment2"
+        android:name="com.example.testmodule.TestFragment"
+        android:label="TestFragment"
+        tools:layout="@layout/fragment_test"/>
+    <fragment
+        android:id="@+id/scheduleFragment2"
+        android:name="com.example.testmodule.ScheduleFragment"
+        android:label="ScheduleFragment" />
+    <fragment
+        android:id="@+id/assignmentFragment2"
+        android:name="com.example.testmodule.AssignmentFragment"
+        android:label="AssignmentFragment" />
+    <fragment
+        android:id="@+id/digitalLibraryFragment2"
+        android:name="com.example.testmodule.DigitalLibraryFragment"
+        android:label="DigitalLibraryFragment" />
+    <fragment
+        android:id="@+id/moreFragment2"
+        android:name="com.example.testmodule.MoreFragment"
+        android:label="MoreFragment" />
+</navigation>
